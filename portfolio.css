@@ -85,30 +85,54 @@ main {
     border-radius: 10px;
     padding: 50px 100px
 }
-.section-title
-{
+
+.section-title {
     text-align: center;
     padding-bottom: 20px;
 }
-.section-description
-{
+
+.section-description {
     padding-bottom: 20px;
 }
 
-main ul
-{
+main ul {
     display: flex;
 }
-main li
-{
+
+main li {
     list-style: none;
 }
-.about-info-container
-{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.info-title
+
+.info-title {
+    font-weight: bold;
+}
+
+
+.section-title-under {
+    text-align: center;
+    padding: 50px 100px
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 20px 20px;
+}
+
+.skill-title
 {
     font-weight: bold;
+    padding: 20px 0px;
 }
